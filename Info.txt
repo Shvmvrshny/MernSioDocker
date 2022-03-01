@@ -1,1 +1,1 @@
-This Project is to learn about mern stack + Socket.io + dockerizing this project.
+This Project is to learn about mern stack + Socket.io
