@@ -11,11 +11,13 @@ app.get('/', (req, res) => {
 })
 
 app.get('/api/chat', (req, res) => {
+  console.log(chats)
   res.send(chats)
 })
 
 app.get('/api/chat/:id', (req, res) => {
   const onechat = chats.find((c) => c._id === req.params.id)
+  console.log(onechat)
   res.send(onechat)
 })
 
